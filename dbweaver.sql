@@ -1,6 +1,6 @@
-CREATE SCHEMA IF NOT EXISTS "ipl";
+CREATE SCHEMA IF NOT EXISTS "cricket";
 
-CREATE TABLE ipl_data (
+CREATE TABLE cricket.ipl_data (
 id INTEGER,
 inning INTEGER,
 over INTEGER,
@@ -22,7 +22,7 @@ bowling_team VARCHAR(50)
 );
 
 
-CREATE TABLE ipl_venue (
+CREATE TABLE cricket.ipl_venue (
 id INTEGER,
 city VARCHAR(30),
 date DATE,
